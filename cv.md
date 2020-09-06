@@ -4,16 +4,19 @@
 
 <div align="right">sveta@sveta.sveta,<br/>0-000-000-00-00</div>
 <br>
-<br>
-I love web development and want to do it for a job. It all started as a hobby. Doing various online courses and code katas I eventually realised that I would like to do it full time. So, I started looking at job openings and see what gaps did I have in my knowledge.
 
-Also, having more than 5 years of experience as a QA Engineer I have quite a lot
-of experience with the software development life cycle, agile practices and
-working in a team. Thanks to my previous job, I deeply understand what quality
-and customer focus means.
+I love **web development** and want to do it for a job. It all started as a
+hobby. Doing various _online courses_ and code _katas_ I eventually realised
+that I would like to do it full time. So, I started looking at job openings and
+see what gaps did I have in my knowledge.
 
-I think I chose that job because I like solving puzzles, getting to the bottom
-of the bug and understanding its root cause. What I didn't know is that
+Also, having more than 5 years of experience as a **QA Engineer** I have quite a
+lot of experience with the _software development life cycle_, _agile_ practices
+and working in a _team_. Thanks to my previous job, I deeply understand what
+quality and _customer focus_ means.
+
+I think I chose that job because I like _solving puzzles_, getting to the bottom
+of the _bug_ and understanding its root cause. What I didn't know is that
 programming puzzles are much more fun to solve. One the social side, I like
 travelling and socks with funny patterns. :)
 
@@ -69,4 +72,4 @@ function isPrime(num) {
 
 ### English skills
 
-Have English IELTS certificate(2018, B1)
+Have English IELTS certificate (2018, B1)
