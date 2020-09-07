@@ -5,6 +5,15 @@ h2 { text-align: right; }
 
 ul {list-style-type: none; }
 
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+article p {
+    padding: 20px;
+}
+
 .container {
     position: relative;
 
