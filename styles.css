@@ -6,8 +6,18 @@ h2 { text-align: right; }
 ul {list-style-type: none; }
 
 .container {
+    position: relative;
+
     margin: auto;
     max-width: 1024px;
+}
+
+.container-bottom-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: 150px;
 }
 
 .parallax {
