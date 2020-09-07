@@ -3,6 +3,8 @@ body { font-family: 'EB Garamond', serif; }
 h1,
 h2 { text-align: right; }
 
+ul {list-style-type: none; }
+
 .container {
     margin: auto;
     max-width: 1024px;
