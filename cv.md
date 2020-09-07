@@ -70,6 +70,6 @@ function isPrime(num) {
   - Software Quality Assurance and Testing, online at qatutor.com
   - Yandex Testing School
 
-### English skills
+### English Skills
 
-Have English IELTS certificate (2018, B1)
+Professional working proficiency
