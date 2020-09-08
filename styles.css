@@ -1,3 +1,4 @@
+* {box-sizing: border-box;}
 html { font-size: 62.5%; }
 body { 
     font-family: 'EB Garamond', serif;
@@ -23,7 +24,11 @@ h2 {
     margin-right: 0; 
 }
 
-ul { list-style-type: none; }
+ul { 
+    margin-top: 0;
+    padding-left: 2rem;
+    list-style-type: none;
+}
 
 header ul {
     margin: 0;
@@ -51,6 +56,17 @@ article p {
 
     margin: auto;
     max-width: 102.4rem;
+}
+.section-code-examples {
+    display: flex;
+    flex-direction: row;
+}
+
+.code-examples-code {
+    margin-left: 25%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
 }
 
 .container-bottom-img {
