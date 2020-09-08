@@ -3,6 +3,7 @@
 
     <head>
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8" />
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./styles.css" />
@@ -46,8 +47,8 @@
                             patterns. :)
                         </p>
                     </article>
+                    <div class="section-article-parallax-img parallax"></div>
                 </section>
-                <div class="parallax"></div>
                 <section>
                     <h3>Skills</h3>
                     <ul class="section-skills-list flex-row">
@@ -88,21 +89,20 @@
                             </li>
                         </ul>
                         <div class="code-examples-code">
-                            <b>Is a number prime?</b> (JavaScript, 6 kyu)
+                            <p><b>Is a number prime?</b> (CodeWars.com, JavaScript, 6 kyu)</p>
                             <code>
                                 <pre>
-        function isPrime(num) {
-            let isPrimeNumber = true; 
+<span class="pink">function</span> isPrime(num) {
+    <span class="yellow">let</span> <span class="gray">isPrimeNumber</span> = <span class="blue">true</span>; 
             
-            if(num &#60;= 1) return false;
+    <span class="orange">if</span>(num &#60;= 1) <span class="green">return</span> <span class="blue">false</span>;
             
-            for (let i = 2; i &#60;= Math.sqrt(num); i++) {
-                if (num % i === 0) isPrimeNumber = false; 
-            } 
+    <span class="orange">for</span>(<span class="yellow">let</span> i = 2; i &#60;= <span class="red">Math</span>.sqrt(num); i++) {
+        <span class="orange">if</span>(num % i === 0) <span class="gray">isPrimeNumber</span> = <span class="blue">false</span>; 
+    } 
             
-            return isPrimeNumber; 
-        } 
-                                </pre>
+    <span class="green">return</span> <span class="gray">isPrimeNumber</span>; 
+}                       </pre>
                             </code>
                         </div>
                     </div>
