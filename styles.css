@@ -8,14 +8,29 @@ html { font-size: 62.5%; } /* 10px */
 
 body { 
     padding: 2rem;
-    
+
     font-family: 'EB Garamond', serif;
     font-size: 1.6rem; 
 }
 
+@media only screen and (max-width: 76.8rem) {
+    body { padding: .5rem }
+}
+
 h1 { font-size: 3rem; }
 h2 { font-size: 2rem; }
-h3 { font-size: 1.8rem; }
+h3 { 
+    font-size: 1.8rem;
+
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+}
 
 @media only screen and (max-width: 36rem) {
     body { font-size: 2rem }
@@ -29,6 +44,7 @@ h3 { font-size: 1.8rem; }
 }
 
 code { font-size: 1.4rem; }
+
 @media only screen and (max-width: 36rem) {
     code { font-size: 1.2rem; } 
 }
@@ -139,12 +155,23 @@ a:hover::before {
 .gray { color: lightgray; }
 .red { color: lightcoral; }
 
+.border {
+    border-style: solid;
+    border-width: .1rem;
+    border-color: lightgray;
+}
+
 /*** CV styles ***/
 .container {
     position: relative;
 
     margin: auto;
+    padding: 2rem;
     max-width: 102.4rem;
+}
+
+@media only screen and (max-width: 76.8rem) {
+    .container { padding: 0; }
 }
 
 .container-bottom-img {
@@ -189,7 +216,7 @@ a:hover::before {
 .section-skills-list li {
 
     border-style: solid;
-    border-width: 0.1rem;
+    border-width: .1rem;
 
     width: 10rem;
     padding: .5rem;
@@ -211,7 +238,7 @@ a:hover::before {
     .code-examples-code { 
         margin-left: 0;
         padding: 1rem;
-        max-width: 34rem;
+        max-width: 35rem;
         overflow: auto; 
     }
 }
