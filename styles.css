@@ -1,8 +1,17 @@
 /*** Tags ***/
 * { box-sizing: border-box; }
-html { font-size: 62.5%; }
+html { font-size: 62.5%; } /* 10px */
 
-body { font-family: 'EB Garamond', serif; }
+body { 
+    font-family: 'EB Garamond', serif;
+    font-size: 1.6rem; 
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.8rem; }
+
+code { font-size: 1.4rem; }
 
 ul { 
     margin-top: 0;
