@@ -19,6 +19,35 @@ ul {
     list-style-type: none;
 }
 
+li { position: relative; }
+
+a:link, a:visited {
+    color: darkslateblue;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:hover::before {
+    position: absolute;
+    left: -1.5rem;
+    top: .825rem;
+
+    display: inline-block;
+    content: "";
+
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+
+    background-color: black;
+}
+
 /*** Shared styles ***/
 .parallax {
     background-image: url("./sveta-header.jpg");
