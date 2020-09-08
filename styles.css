@@ -1,28 +1,8 @@
-* {box-sizing: border-box;}
+/*** Tags ***/
+* { box-sizing: border-box; }
 html { font-size: 62.5%; }
-body { 
-    font-family: 'EB Garamond', serif;
-}
 
-header {     
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-h1,
-h2 { 
-    text-align: right;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 0;
-    margin-right: 0; 
-}
+body { font-family: 'EB Garamond', serif; }
 
 ul { 
     margin-top: 0;
@@ -30,43 +10,32 @@ ul {
     list-style-type: none;
 }
 
-header ul {
-    margin: 0;
-    padding: 0;
+/*** Shared styles ***/
+.parallax {
+    background-image: url("./sveta-header.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
 
-header ul li:first-child {
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0; 
-  }
-
-article {
+.flex-row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-article p {
-    padding: 2rem;
+.flex-row.section-code-examples {
+    justify-content: start;
 }
 
+/*** CV styles ***/
 .container {
     position: relative;
 
     margin: auto;
     max-width: 102.4rem;
-}
-.section-code-examples {
-    display: flex;
-    flex-direction: row;
-}
-
-.code-examples-code {
-    margin-left: 25%;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, .8);
-    color: white;
 }
 
 .container-bottom-img {
@@ -77,12 +46,43 @@ article p {
     width: 15rem;
 }
 
-.parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./sveta-header.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 30vh;
+/* Header */
+.header {    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+.header-contacts {
+    margin: 0;
+    padding: 0;
+}
+
+.header-contacts li:first-child {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0; 
+  }
+
+.header-h {
+    text-align: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0; 
+}
+
+/* section "About" */
+.article-about-p {
+    padding: 2rem;
+}
+
+/* section "Code Examples"*/
+.code-examples-code {
+    margin-left: 25%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
